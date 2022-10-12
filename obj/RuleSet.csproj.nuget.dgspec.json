@@ -1,35 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\RuleSet\\RuleSet\\RuleSet.csproj": {}
+    "/Users/berkay/RiderProjects/SequentialRules/RuleSet.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\RuleSet\\RuleSet\\RuleSet.csproj": {
+    "/Users/berkay/RiderProjects/SequentialRules/RuleSet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\RuleSet\\RuleSet\\RuleSet.csproj",
+        "projectUniqueName": "/Users/berkay/RiderProjects/SequentialRules/RuleSet.csproj",
         "projectName": "RuleSet",
-        "projectPath": "C:\\Projects\\RuleSet\\RuleSet\\RuleSet.csproj",
-        "packagesPath": "C:\\Users\\Bora Kasmer\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\RuleSet\\RuleSet\\obj\\",
+        "projectPath": "/Users/berkay/RiderProjects/SequentialRules/RuleSet.csproj",
+        "packagesPath": "/Users/berkay/.nuget/packages/",
+        "outputPath": "/Users/berkay/RiderProjects/SequentialRules/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Bora Kasmer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/berkay/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "/usr/local/share/dotnet/x64/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/parkbee/auth/9f293770-e895-4a5d-a9eb-0357d17cbf1e/api/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -40,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -58,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.401/RuntimeIdentifierGraph.json"
         }
       }
     }

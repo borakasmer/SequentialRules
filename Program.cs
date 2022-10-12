@@ -1,6 +1,7 @@
 ﻿using RuleSet.Models;
-using RuleSet.Rules;
 using System;
+using System.Collections.Generic;
+using RuleSet.Platform;
 
 namespace RuleSet
 {
@@ -15,35 +16,12 @@ namespace RuleSet
             model.UserID = 1;
             model.TokenExpireDate = DateTime.Now.AddHours(3);
 
-            IRule firstRule = new CheckPlatformRule();
-            while (firstRule.NextRule != null)
-            {
-                if (firstRule.Run(model))
-                {
-                    firstRule = firstRule.NextRule;
-                }
-                else
-                {
-                    Console.WriteLine("Unauthorized 401!");
-                    break;
-                }
-            }
-            //Working Tail Rule Process
-            if (firstRule.NextRule == null)
-            {
-                if (firstRule.Run(model))
-                {
-                    Console.WriteLine("Authorized 200 OK!");
-                }
-                else
-                {
-                    Console.WriteLine("Unauthorized 401!");
-                }
-            }
+            var platformChecker = PlatformCheckerFactory.GetPlatformChecker(model);
+            platformChecker.Execute(model);
 
-            Console.WriteLine($"Token: {FakeData.Token}");
-            Console.WriteLine($"RefreshToken: {FakeData.RefreshToken}");
-            Console.WriteLine($"Token Expire Date: ${FakeData.TokenExpireDate}");
+            // Console.WriteLine($"Token: {FakeData.Token}");
+            // Console.WriteLine($"RefreshToken: {FakeData.RefreshToken}");
+            // Console.WriteLine($"Token Expire Date: ${FakeData.TokenExpireDate}");
         }
     }
 }

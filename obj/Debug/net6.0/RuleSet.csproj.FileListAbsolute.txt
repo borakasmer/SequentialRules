@@ -1,0 +1,15 @@
+/Users/berkay/RiderProjects/SequentialRules/bin/Debug/net6.0/RuleSet
+/Users/berkay/RiderProjects/SequentialRules/bin/Debug/net6.0/RuleSet.deps.json
+/Users/berkay/RiderProjects/SequentialRules/bin/Debug/net6.0/RuleSet.runtimeconfig.json
+/Users/berkay/RiderProjects/SequentialRules/bin/Debug/net6.0/RuleSet.dll
+/Users/berkay/RiderProjects/SequentialRules/bin/Debug/net6.0/RuleSet.pdb
+/Users/berkay/RiderProjects/SequentialRules/obj/Debug/net6.0/RuleSet.csproj.AssemblyReference.cache
+/Users/berkay/RiderProjects/SequentialRules/obj/Debug/net6.0/RuleSet.GeneratedMSBuildEditorConfig.editorconfig
+/Users/berkay/RiderProjects/SequentialRules/obj/Debug/net6.0/RuleSet.AssemblyInfoInputs.cache
+/Users/berkay/RiderProjects/SequentialRules/obj/Debug/net6.0/RuleSet.AssemblyInfo.cs
+/Users/berkay/RiderProjects/SequentialRules/obj/Debug/net6.0/RuleSet.csproj.CoreCompileInputs.cache
+/Users/berkay/RiderProjects/SequentialRules/obj/Debug/net6.0/RuleSet.dll
+/Users/berkay/RiderProjects/SequentialRules/obj/Debug/net6.0/refint/RuleSet.dll
+/Users/berkay/RiderProjects/SequentialRules/obj/Debug/net6.0/RuleSet.pdb
+/Users/berkay/RiderProjects/SequentialRules/obj/Debug/net6.0/RuleSet.genruntimeconfig.cache
+/Users/berkay/RiderProjects/SequentialRules/obj/Debug/net6.0/ref/RuleSet.dll

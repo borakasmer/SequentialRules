@@ -11,7 +11,4 @@ namespace RuleSet.Models
         Web = 1,
         Gsm = 2
     }
-    public class Enums
-    {
-    }
 }
