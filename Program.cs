@@ -19,9 +19,9 @@ namespace RuleSet
             var platformChecker = PlatformCheckerFactory.GetPlatformChecker(model);
             platformChecker.Execute(model);
 
-            // Console.WriteLine($"Token: {FakeData.Token}");
-            // Console.WriteLine($"RefreshToken: {FakeData.RefreshToken}");
-            // Console.WriteLine($"Token Expire Date: ${FakeData.TokenExpireDate}");
+            Console.WriteLine($"Token: {FakeData.Token}");
+            Console.WriteLine($"RefreshToken: {FakeData.RefreshToken}");
+            Console.WriteLine($"Token Expire Date: ${FakeData.TokenExpireDate}");
         }
     }
 }
